@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MonumentWebSite/static/css/main.a8e08e09.css",
+    "main.js": "/MonumentWebSite/static/js/main.c7cae28c.js",
+    "static/js/453.b055360c.chunk.js": "/MonumentWebSite/static/js/453.b055360c.chunk.js",
+    "index.html": "/MonumentWebSite/index.html",
+    "main.a8e08e09.css.map": "/MonumentWebSite/static/css/main.a8e08e09.css.map",
+    "main.c7cae28c.js.map": "/MonumentWebSite/static/js/main.c7cae28c.js.map",
+    "453.b055360c.chunk.js.map": "/MonumentWebSite/static/js/453.b055360c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8e08e09.css",
+    "static/js/main.c7cae28c.js"
+  ]
+}
