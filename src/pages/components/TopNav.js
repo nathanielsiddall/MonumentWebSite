@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './css/TopNav.css';
+import logo from '../../assets/headstone-with-cross-svgrepo-com.svg';
 
 export default function TopNav() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -10,7 +11,7 @@ export default function TopNav() {
         <nav className={`App-nav ${menuOpen ? 'open' : ''}`}>
             <Link to="/" className="logo">
                 <img
-                    src="/headstone-with-cross-svgrepo-com.svg"
+                    src={logo}
                     alt="Home"
                     className="logo-image"
                 />
