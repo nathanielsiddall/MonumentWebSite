@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/MonumentWebSite/static/css/main.a8e08e09.css",
-    "main.js": "/MonumentWebSite/static/js/main.18afee61.js",
+    "main.css": "/MonumentWebSite/static/css/main.4f67c990.css",
+    "main.js": "/MonumentWebSite/static/js/main.83119e1b.js",
     "static/js/453.b055360c.chunk.js": "/MonumentWebSite/static/js/453.b055360c.chunk.js",
     "static/media/headstone-with-cross-svgrepo-com.svg": "/MonumentWebSite/static/media/headstone-with-cross-svgrepo-com.90e1a2602103d596c39fce2b0f1b1c21.svg",
     "index.html": "/MonumentWebSite/index.html",
-    "main.a8e08e09.css.map": "/MonumentWebSite/static/css/main.a8e08e09.css.map",
-    "main.18afee61.js.map": "/MonumentWebSite/static/js/main.18afee61.js.map",
+    "main.4f67c990.css.map": "/MonumentWebSite/static/css/main.4f67c990.css.map",
+    "main.83119e1b.js.map": "/MonumentWebSite/static/js/main.83119e1b.js.map",
     "453.b055360c.chunk.js.map": "/MonumentWebSite/static/js/453.b055360c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8e08e09.css",
-    "static/js/main.18afee61.js"
+    "static/css/main.4f67c990.css",
+    "static/js/main.83119e1b.js"
   ]
 }
