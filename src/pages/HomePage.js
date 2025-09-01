@@ -52,7 +52,7 @@ export default function BrochureHomePage() {
             {/* Hero Section */}
             <section className="hero-section">
                 <img
-                    src="https://placehold.co/800x400"
+                    src="/homePageImages/platformMon.jpeg"
                     alt="Monuvita Granite Memorials"
                 />
                 <h1>Memorials That Stand the Test of Time</h1>
