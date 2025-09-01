@@ -2,7 +2,6 @@
   "name": "gravestone-configurator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nathanielsiddall.github.io/MonumentWebSite",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -22,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && if exist docs rmdir /S /Q docs && move build docs",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

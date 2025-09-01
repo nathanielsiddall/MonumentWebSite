@@ -14,9 +14,9 @@ export default class App extends React.Component {
                 <div className="App-content">
                     <Routes>
                         <Route path="/"        element={<HomePage />}    />
-                        <Route path="/design"  element={<DesignPage />}  />
+
                         <Route path="/gallery" element={<GalleryPage />} />
-                        <Route path="/other"   element={<OtherPage />}   />
+
                         <Route path="*"        element={<Navigate to="/" replace />} />
                     </Routes>
                 </div>

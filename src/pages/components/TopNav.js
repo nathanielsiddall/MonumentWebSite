@@ -29,8 +29,8 @@ export default function TopNav() {
 
             {/* links will show/hide based on .open on the nav */}
             <div className="links">
-                <Link to="/design">Configurator</Link>
-                <Link to="/other">Other</Link>
+                {/*<Link to="/design">Configurator</Link>*/}
+                {/*<Link to="/other">Other</Link>*/}
                 <Link to="/gallery">Gallery</Link>
             </div>
         </nav>

@@ -19,10 +19,29 @@
 
 .hero-section img {
     width: 100%;
-    height: auto;
+    height: 200px;      /* default = mobile */
+    object-fit: cover;
     border-radius: 0.5rem;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
+
+/* Tablet */
+@media (min-width: 640px) {
+    .hero-section img {
+        height: 400px;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .hero-section img {
+        height: 400px;
+        max-width: 900px; /* optional cap */
+        margin: 0 auto;   /* center on big screens */
+    }
+}
+
+
 
 .hero-section h1 {
     margin-top: 1.5rem;
@@ -37,6 +56,18 @@
     color: #555;
     line-height: 1.6;
 }
+
+/*.hero-image {*/
+/*    width: 100%;*/
+/*    max-width: 900px;*/
+/*    height: 10px;*/
+/*    object-fit: cover;*/
+/*    display: block;*/
+/*    margin: 0 auto;*/
+/*    border-radius: 8px;*/
+/*}*/
+
+
 
 /* Info Sections (Wide Alternating Cards) */
 .info-section {
@@ -82,15 +113,29 @@
 
 .info-content img {
     width: 100%;
-    border-radius: 0.5rem;
+    max-height: 300px;   /* default mobile cap */
     object-fit: cover;
+    border-radius: 0.5rem;
+    display: block;
+    margin: 0 auto;
 }
 
+/* Tablet+ */
 @media (min-width: 768px) {
     .info-content img {
         width: 50%;
+        max-height: 400px; /* a little taller on bigger screens */
     }
 }
+
+/* Desktop+ */
+@media (min-width: 1200px) {
+    .info-content img {
+        width: 45%;        /* give text more breathing room */
+        max-height: 500px; /* hero-ish height without overkill */
+    }
+}
+
 
 .info-content .text {
     margin-top: 1rem;
